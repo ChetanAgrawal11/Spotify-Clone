@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+   
+    background-color: wheat;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    margin: 0;
+    background-color: black;
+    height: 70px;
+}
+.icon{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   font-weight: bold;
+   size: 1.3rem;
+   
+    
+}
+.buttons{
+    margin-left: 950px;
+}
+.icon img{
+    padding: 0 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li{
+    color: white;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    /* width: 70vw; */
+  
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 15px;
+    flex-direction: column;
+    background: url("https://wallpapercave.com/wp/wp6360097.jpg");
+    background-size: cover; /* or 'contain' or a specific size value */
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust as needed */
+
+}
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    flex-direction: column;
+}
+#rangebar{
+ 
+    width: 75vw;
+}
+
+.difficons img{
+    padding:10px;
+    cursor: pointer;
+}
+
+.songlist2 img{
+    height: 25px;
+    width: 30px;
+    border-radius: 50%
+}
+.songlist2 {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 30%;
+    height: 18px;
+    padding: 10px;
+    margin: 5px 5px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.timeimage {
+    
+    display: flex;
+    justify-content: center;
+}
+.timeimage img{
+    margin-left: 8px;
+    height: 20px;
+}
+
+
+.container4{
+    margin: 40px 20px;
+}
+.container4 .songlist2{
+    margin-bottom: 15px;
+}
+
+.playingitem img{
+    height: 30px;
+    opacity: 0; 
+    /* When song will play these will also start playing */
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 12vw;
+}
+.playingitem h4{
+    position: absolute;
+    top: 38px;
+    left: 17vw;
+    color:white
+}
+.difficons button{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
